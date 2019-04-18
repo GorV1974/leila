@@ -1,0 +1,141 @@
+@font-face{
+    font-family: myfont;
+    src:url(font/font.otf);
+}
+.conteiner{
+    
+    width: 80%;
+    margin: auto;
+    clear: both;
+    display: table;
+     
+}
+header{
+    background:url(img/bg.png);
+    padding-bottom: 100px;
+}
+.logo{
+ 
+    margin: 20px;
+    float: left;
+}
+.logo img{
+   
+    margin: 10px 20px;
+}
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    margin: 10px;
+    color: white;
+    float: left;
+    list-style-type: none;
+    text-transform: none;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    color:white;
+}
+.text p{
+    color:white;
+}
+.chat{
+    width: 40%;
+    margin: auto;
+}
+.client{
+    width: 50%;
+    background: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+    right: 50px;
+}
+.client:before{
+    content: '';
+    background: url(img/icon.png);
+    width: 99px;
+    height: 96px;
+    position: absolute;
+    top: -10px;
+    left: -70px;
+}
+.leila{
+    width: 50%;
+    background: white;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+    left: 50px;;
+}
+.leila::after{
+    content: '';
+    background: url(img/4.png);
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -5px;
+    right: -40px;
+}
+.demo a{
+    color:red!important;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+.analiz{
+    clear: both;
+    display: table;
+    width: 100%;
+}
+.lines{
+    width: 60%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.lines img{
+    width: 100%;
+}
+.data{
+    width: 40%;
+    float: left;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.data h2{
+    font-family: myfont;
+}
+.data p{
+    font-family: 'Armata', sans-serif;
+    font-size: 12px;
+}
+.con{
+    clear: both;
+    display: table;
+    margin: 10px;
+}
+.con b{
+    font-size: 35px;
+}
+.external{
+    float: left;
+    width: 50%;
+}
+.company{
+    float: left;
+    width: 50%;
+    border-left: 2px solid grey;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
